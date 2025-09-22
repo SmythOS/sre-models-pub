@@ -1,0 +1,761 @@
+{
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B": {
+    "label": "DeepSeek - R1 Distill Qwen 14B",
+    "modelId": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": {
+    "label": "DeepSeek - R1 Distill Qwen 1.5B",
+    "modelId": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Llama-70B": {
+    "label": "DeepSeek - R1 Distill Llama 70B",
+    "modelId": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "reasoning"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "deepseek-ai/DeepSeek-R1": {
+    "label": "DeepSeek - R1",
+    "modelId": "deepseek-ai/DeepSeek-R1",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 128000,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "deepseek-ai/DeepSeek-V3": {
+    "label": "DeepSeek - V3",
+    "modelId": "deepseek-ai/DeepSeek-V3",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "deepseek-ai/deepseek-llm-67b-chat": {
+    "label": "DeepSeek - Llama 67B Chat",
+    "modelId": "deepseek-ai/deepseek-llm-67b-chat",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 4096,
+    "completionTokens": 4096,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8": {
+    "label": "Meta - Llama 4 Maverick (17Bx128E)",
+    "modelId": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "tools",
+      "image"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 524288,
+    "completionTokens": 524288,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Llama-4-Scout-17B-16E-Instruct": {
+    "label": "Meta - Llama 4 Scout (17Bx16E)",
+    "modelId": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "tools",
+      "image"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 327680,
+    "completionTokens": 327680,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Llama-3.3-70B-Instruct-Turbo": {
+    "label": "Meta - Llama 3.3 70B Instruct Turbo",
+    "modelId": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "tools"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 131072,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo": {
+    "label": "Meta - Llama 3.1 8B Instruct Turbo",
+    "modelId": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "tools"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 131072,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo": {
+    "label": "Meta - Llama 3.1 70B Instruct Turbo",
+    "modelId": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "tools"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 131072,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo": {
+    "label": "Meta - Llama 3.1 405B Instruct Turbo",
+    "modelId": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "tools"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 130815,
+    "completionTokens": 130815,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Meta-Llama-3-8B-Instruct-Turbo": {
+    "label": "Meta - Llama 3 8B Instruct Turbo",
+    "modelId": "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Meta-Llama-3-70B-Instruct-Turbo": {
+    "label": "Meta - Llama 3 70B Instruct Turbo",
+    "modelId": "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Llama-3.2-3B-Instruct-Turbo": {
+    "label": "Meta - Llama 3.2 3B Instruct Turbo",
+    "modelId": "meta-llama/Llama-3.2-3B-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Meta-Llama-3-8B-Instruct-Lite": {
+    "label": "Meta - Llama 3 8B Instruct Lite",
+    "modelId": "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Meta-Llama-3-70B-Instruct-Lite": {
+    "label": "Meta - Llama 3 70B Instruct Lite",
+    "modelId": "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Llama-3-8b-chat-hf": {
+    "label": "Meta - Llama 3 8B Chat",
+    "modelId": "meta-llama/Llama-3-8b-chat-hf",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Llama-3-70b-chat-hf": {
+    "label": "Meta - Llama 3 70B Chat",
+    "modelId": "meta-llama/Llama-3-70b-chat-hf",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Llama-2-13b-chat-hf": {
+    "label": "Meta - Llama 2 13B Chat",
+    "modelId": "meta-llama/Llama-2-13b-chat-hf",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 4096,
+    "completionTokens": 4096,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Llama-Vision-Free": {
+    "label": "Meta - Llama Vision Free",
+    "modelId": "meta-llama/Llama-Vision-Free",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "image"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 131072,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo": {
+    "label": "Meta - Llama 3.2 11B Vision Instruct Turbo",
+    "modelId": "meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "image"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 131072,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo": {
+    "label": "Meta - Llama 3.2 90B Vision Instruct Turbo",
+    "modelId": "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "image"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 131072,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "google/gemma-2-27b-it": {
+    "label": "Google - Gemma 2 27B",
+    "modelId": "google/gemma-2-27b-it",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "google/gemma-2-9b-it": {
+    "label": "Google - Gemma 2 9B",
+    "modelId": "google/gemma-2-9b-it",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "google/gemma-2b-it": {
+    "label": "Google - Gemma 2 2B",
+    "modelId": "google/gemma-2b-it",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "mistralai/Mistral-7B-Instruct-v0.3": {
+    "label": "Mistral - 7B Instruct v0.3",
+    "modelId": "mistralai/Mistral-7B-Instruct-v0.3",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2": {
+    "label": "Mistral - 7B Instruct v0.2",
+    "modelId": "mistralai/Mistral-7B-Instruct-v0.2",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "mistralai/Mistral-7B-Instruct-v0.1": {
+    "label": "Mistral - 7B Instruct v0.1",
+    "modelId": "mistralai/Mistral-7B-Instruct-v0.1",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "tools"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "mistralai/Mixtral-8x7B-Instruct-v0.1": {
+    "label": "Mistral - 8x7B Instruct v0.1",
+    "modelId": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "tools"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "mistralai/Mixtral-8x22B-Instruct-v0.1": {
+    "label": "Mistral - 8x22B Instruct v0.1",
+    "modelId": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 65536,
+    "completionTokens": 65536,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "Qwen/Qwen2.5-Coder-32B-Instruct": {
+    "label": "Qwen - 2.5 Coder 32B",
+    "modelId": "Qwen/Qwen2.5-Coder-32B-Instruct",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "Qwen/QwQ-32B-Preview": {
+    "label": "Qwen - QwQ 32B Preview",
+    "modelId": "Qwen/QwQ-32B-Preview",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "Qwen/Qwen2.5-7B-Instruct-Turbo": {
+    "label": "Qwen - 2.5 7B Instruct Turbo",
+    "modelId": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "tools"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "Qwen/Qwen2.5-72B-Instruct-Turbo": {
+    "label": "Qwen - 2.5 72B Instruct Turbo",
+    "modelId": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+    "provider": "TogetherAI",
+    "features": [
+      "text",
+      "tools"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "Qwen/Qwen2-72B-Instruct": {
+    "label": "Qwen - 2 72B Instruct",
+    "modelId": "Qwen/Qwen2-72B-Instruct",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "Qwen/Qwen2-VL-72B-Instruct": {
+    "label": "Qwen - 2 VL 72B Instruct",
+    "modelId": "Qwen/Qwen2-VL-72B-Instruct",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF": {
+    "label": "Nvidia - Llama 3.1 Nemotron 70B",
+    "modelId": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "microsoft/WizardLM-2-8x22B": {
+    "label": "Microsoft - WizardLM 2 8x22B",
+    "modelId": "microsoft/WizardLM-2-8x22B",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 65536,
+    "completionTokens": 65536,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "databricks/dbrx-instruct": {
+    "label": "Databricks - DBRX Instruct",
+    "modelId": "databricks/dbrx-instruct",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO": {
+    "label": "NousResearch - Hermes 2 Mixtral 8x7B DPO",
+    "modelId": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "upstage/SOLAR-10.7B-Instruct-v1.0": {
+    "label": "Upstage - SOLAR 10.7B Instruct v1.0",
+    "modelId": "upstage/SOLAR-10.7B-Instruct-v1.0",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 4096,
+    "completionTokens": 4096,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  },
+  "Gryphe/MythoMax-L2-13b": {
+    "label": "Gryphe - MythoMax L2 13B",
+    "modelId": "Gryphe/MythoMax-L2-13b",
+    "provider": "TogetherAI",
+    "features": [
+      "text"
+    ],
+    "tags": [
+      "Personal",
+      "TogetherAI"
+    ],
+    "tokens": 4096,
+    "completionTokens": 4096,
+    "enabled": true,
+    "baseURL": "https://api.together.xyz/v1",
+    "credentials": "vault"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "grok-4": {
+    "label": "Grok 4",
+    "modelId": "grok-4-0709",
+    "provider": "xAI",
+    "features": [
+      "text",
+      "tools",
+      "search"
+    ],
+    "tags": [
+      "Personal",
+      "xAI"
+    ],
+    "tokens": 256000,
+    "completionTokens": 8192,
+    "enabled": true,
+    "baseURL": "https://api.x.ai/v1",
+    "credentials": "vault"
+  },
+  "grok": {
+    "label": "Grok",
+    "modelId": "grok-2-latest",
+    "provider": "xAI",
+    "features": [
+      "text",
+      "tools"
+    ],
+    "tags": [
+      "Personal",
+      "xAI"
+    ],
+    "tokens": 131072,
+    "completionTokens": 8192,
+    "enabled": true,
+    "hidden": true,
+    "baseURL": "https://api.x.ai/v1",
+    "credentials": "vault"
+  },
+  "grok-2-vision": {
+    "label": "Grok Vision",
+    "modelId": "grok-2-vision-latest",
+    "provider": "xAI",
+    "features": [
+      "image"
+    ],
+    "tags": [
+      "New",
+      "Personal",
+      "xAI"
+    ],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "hidden": true,
+    "baseURL": "https://api.x.ai/v1",
+    "credentials": "vault"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "flux.1-schnell": {
+    "label": "FLUX.1 (Schnell)",
+    "modelId": "runware:100@1",
+    "provider": "Runware",
+    "features": [
+      "image-generation"
+    ],
+    "tags": [
+      "SmythOS"
+    ],
+    "enabled": false,
+    "credentials": "vault"
+  },
+  "flux.1-dev": {
+    "label": "FLUX.1 (Dev)",
+    "modelId": "runware:101@1",
+    "provider": "Runware",
+    "features": [
+      "image-generation"
+    ],
+    "tags": [
+      "SmythOS"
+    ],
+    "enabled": false,
+    "credentials": "vault"
+  }
+}

@@ -12,7 +12,7 @@
     "interface": "responses"
   },
   "gpt-5": {
-    "label": "GPT 5 (TESTING)",
+    "label": "GPT 5",
     "modelId": "gpt-5",
     "provider": "OpenAI",
     "features": ["text", "tools", "image", "reasoning", "search", "document"],

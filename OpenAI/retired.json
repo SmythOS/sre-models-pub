@@ -1,0 +1,28 @@
+{
+  "o1-preview": {
+    "label": "GPT o1 Preview",
+    "modelId": "o1-preview",
+    "alias": "o3",
+    "provider": "OpenAI",
+    "features": ["text"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 128000,
+    "completionTokens": 32768,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "gpt-4.5-preview": {
+    "label": "GPT 4.5 Preview",
+    "modelId": "gpt-4.5-preview",
+    "alias": "gpt-4.1",
+    "provider": "OpenAI",
+    "features": ["text", "tools", "image"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 128000,
+    "completionTokens": 16384,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  }
+}

@@ -82,28 +82,6 @@
     "enabled": true,
     "credentials": "vault"
   },
-  "claude-3-5-sonnet-latest": {
-    "label": "Claude 3.5 Sonnet Latest",
-    "modelId": "claude-3-5-sonnet-latest",
-    "provider": "Anthropic",
-    "features": ["text", "tools", "image"],
-    "tags": ["Personal", "Legacy"],
-    "tokens": 200000,
-    "completionTokens": 8192,
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "claude-3.5-sonnet": {
-    "label": "Claude 3.5 Sonnet Stable",
-    "modelId": "claude-3-5-sonnet-20240620",
-    "provider": "Anthropic",
-    "features": ["text", "tools", "image"],
-    "tags": ["Personal", "Legacy"],
-    "tokens": 200000,
-    "completionTokens": 8192,
-    "enabled": true,
-    "credentials": "vault"
-  },
   "claude-3-opus": {
     "label": "Claude 3 Opus",
     "modelId": "claude-3-opus-20240229",

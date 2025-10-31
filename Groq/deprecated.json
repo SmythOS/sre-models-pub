@@ -1,0 +1,62 @@
+{
+  "qwen-qwq-32b": {
+    "label": "Qwen - QWQ 32b Preview",
+    "modelId": "qwen-qwq-32b",
+    "provider": "Groq",
+    "features": ["text"],
+    "tags": ["Personal", "Groq", "Deprecated"],
+    "tokens": 128000,
+    "completionTokens": 16384,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "qwen-2.5-coder-32b": {
+    "label": "Qwen - 2.5 Coder 32b Preview",
+    "modelId": "qwen-2.5-coder-32b",
+    "provider": "Groq",
+    "features": ["text"],
+    "tags": ["Personal", "Groq", "Deprecated"],
+    "tokens": 128000,
+    "completionTokens": 16384,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "qwen-2.5-32b": {
+    "label": "Qwen - 2.5 32b Preview",
+    "modelId": "qwen-2.5-32b",
+    "provider": "Groq",
+    "features": ["text"],
+    "tags": ["Personal", "Groq", "Deprecated"],
+    "tokens": 128000,
+    "completionTokens": 16384,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "llama-3.2-11b-vision-preview": {
+    "label": "Meta - Llama 3.2 11B Vision Preview",
+    "modelId": "llama-3.2-11b-vision-preview",
+    "provider": "Groq",
+    "features": ["text", "image"],
+    "tags": ["Personal", "Groq", "Deprecated"],
+    "tokens": 128000,
+    "completionTokens": 8192,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "llama-3.2-90b-vision-preview": {
+    "label": "Meta - Llama 3.2 90b Vision Preview",
+    "modelId": "llama-3.2-90b-vision-preview",
+    "provider": "Groq",
+    "features": ["text", "image"],
+    "tags": ["Personal", "Groq", "Deprecated"],
+    "tokens": 128000,
+    "completionTokens": 8192,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  }
+}

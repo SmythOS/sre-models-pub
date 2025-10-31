@@ -1,0 +1,121 @@
+{
+  "gpt-4-turbo-latest": {
+    "label": "GPT 4 Turbo Latest",
+    "modelId": "gpt-4-turbo-2024-04-09",
+    "provider": "OpenAI",
+    "features": ["text", "tools"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 128000,
+    "completionTokens": 4096,
+    "enabled": true,
+    "hidden": true
+  },
+  "gpt-4-turbo": {
+    "label": "GPT 4 Turbo",
+    "modelId": "gpt-4-turbo-2024-04-09",
+    "provider": "OpenAI",
+    "features": ["text", "tools", "image"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 128000,
+    "completionTokens": 4096,
+    "enabled": true,
+    "hidden": true
+  },
+  "gpt-3.5-turbo-latest": {
+    "label": "GPT 3.5 Turbo Latest",
+    "modelId": "gpt-3.5-turbo-0125",
+    "provider": "OpenAI",
+    "features": ["text", "tools"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 16385,
+    "completionTokens": 4096,
+    "enabled": true,
+    "hidden": true
+  },
+  "gpt-3.5-turbo": {
+    "label": "GPT 3.5 Turbo",
+    "modelId": "gpt-3.5-turbo-0125",
+    "provider": "OpenAI",
+    "features": ["text", "tools"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 16385,
+    "completionTokens": 4096,
+    "enabled": true,
+    "hidden": true
+  },
+  "gpt-4-latest": {
+    "label": "GPT 4 Latest",
+    "modelId": "gpt-4-0613",
+    "provider": "OpenAI",
+    "features": ["text", "tools"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "hidden": true
+  },
+  "gpt-4": {
+    "label": "GPT 4",
+    "modelId": "gpt-4o-2024-08-06",
+    "provider": "OpenAI",
+    "features": ["text", "tools"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 8192,
+    "completionTokens": 8192,
+    "enabled": true,
+    "hidden": true
+  },
+  "o3-pro": {
+    "label": "GPT o3 Pro",
+    "modelId": "o3-pro",
+    "provider": "OpenAI",
+    "features": ["text", "tools", "image", "reasoning"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 200000,
+    "completionTokens": 100000,
+    "enabled": false,
+    "credentials": "vault",
+    "interface": "responses"
+  },
+  "o3-mini": {
+    "label": "GPT o3 mini",
+    "modelId": "o3-mini-2025-01-31",
+    "provider": "OpenAI",
+    "features": ["text", "reasoning"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 200000,
+    "completionTokens": 100000,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "o1-mini": {
+    "label": "GPT o1 mini",
+    "modelId": "o1-mini-2024-09-12",
+    "provider": "OpenAI",
+    "features": ["text"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 128000,
+    "completionTokens": 65536,
+    "enabled": true,
+    "credentials": "vault"
+  },
+  "dall-e-3": {
+    "label": "DALL·E 3",
+    "modelId": "dall-e-3",
+    "provider": "OpenAI",
+    "features": ["image-generation"],
+    "tags": ["Deprecated"],
+    "enabled": true,
+    "credentials": "vault"
+  },
+  "dall-e-2": {
+    "label": "DALL·E 2",
+    "modelId": "dall-e-2",
+    "provider": "OpenAI",
+    "features": ["image-generation"],
+    "tags": ["Deprecated"],
+    "enabled": true,
+    "credentials": "vault"
+  }
+}

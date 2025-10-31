@@ -1,0 +1,27 @@
+{
+  "claude-3.7-sonnet-thinking": {
+    "label": "Claude 3.7 Sonnet Thinking",
+    "modelId": "claude-3-7-sonnet-20250219",
+    "provider": "Anthropic",
+    "features": ["text", "tools", "image", "reasoning"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 200000,
+    "completionTokens": 16384,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault",
+    "maxReasoningTokens": 16384
+  },
+  "claude-3-haiku": {
+    "label": "Claude 3 Haiku",
+    "modelId": "claude-3-haiku-20240307",
+    "provider": "Anthropic",
+    "features": ["text", "tools", "image"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 200000,
+    "completionTokens": 4096,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  }
+}

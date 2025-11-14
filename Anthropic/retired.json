@@ -1,0 +1,67 @@
+{
+  "claude-3-5-sonnet-latest": {
+    "label": "Claude 3.5 Sonnet Latest",
+    "modelId": "claude-3-5-sonnet-latest",
+    "alias": "claude-sonnet-4-5",
+    "provider": "Anthropic",
+    "features": ["text", "tools", "image"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 200000,
+    "completionTokens": 8192,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "claude-3.5-sonnet": {
+    "label": "Claude 3.5 Sonnet Stable",
+    "modelId": "claude-3-5-sonnet-20240620",
+    "alias": "claude-sonnet-4-5",
+    "provider": "Anthropic",
+    "features": ["text", "tools", "image"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 200000,
+    "completionTokens": 8192,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "claude-3-sonnet": {
+    "label": "Claude 3 Sonnet",
+    "modelId": "claude-3-sonnet-20240229",
+    "alias": "claude-sonnet-4-5",
+    "provider": "Anthropic",
+    "features": ["text", "tools", "image"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 200000,
+    "completionTokens": 4096,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "claude-2.1": {
+    "label": "Claude 2.1",
+    "modelId": "claude-2.1",
+    "alias": "claude-sonnet-4-5",
+    "provider": "Anthropic",
+    "features": ["text", "image"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 200000,
+    "completionTokens": 4096,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "claude-instant-1.2": {
+    "label": "Claude Instant 1.2",
+    "modelId": "claude-instant-1.2",
+    "alias": "claude-3.5-haiku",
+    "provider": "Anthropic",
+    "features": ["text", "image"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 100000,
+    "completionTokens": 4096,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  }
+}

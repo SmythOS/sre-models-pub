@@ -3,13 +3,8 @@
     "label": "Meta - Llama 3.3 70B",
     "modelId": "llama-3.3-70b-versatile",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 128000,
     "completionTokens": 32768,
     "enabled": true,
@@ -19,13 +14,8 @@
     "label": "Meta - Llama 3 70B",
     "modelId": "llama3-70b-8192",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 8192,
     "completionTokens": 8192,
     "enabled": true,
@@ -35,13 +25,8 @@
     "label": "Meta - Llama 3.1 8B",
     "modelId": "llama-3.1-8b-instant",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 128000,
     "completionTokens": 8192,
     "enabled": true,
@@ -51,13 +36,8 @@
     "label": "Meta - Llama Guard 3 8B",
     "modelId": "llama-guard-3-8b",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 8192,
     "completionTokens": 8192,
     "enabled": true,
@@ -67,13 +47,8 @@
     "label": "Meta - Llama 3 8B",
     "modelId": "llama3-8b-8192",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 8192,
     "completionTokens": 8192,
     "enabled": true,
@@ -83,13 +58,8 @@
     "label": "Google - Gemma 2 9B",
     "modelId": "gemma2-9b-it",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 8192,
     "completionTokens": 8192,
     "enabled": true,
@@ -99,13 +69,8 @@
     "label": "Mistral - Mixtral 8x7b",
     "modelId": "mixtral-8x7b-32768",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 32768,
     "completionTokens": 32768,
     "enabled": true,
@@ -115,16 +80,8 @@
     "label": "OpenAI - GPT OSS 120b Preview",
     "modelId": "openai/gpt-oss-120b",
     "provider": "Groq",
-    "features": [
-      "text",
-      "tools",
-      "reasoning"
-    ],
-    "tags": [
-      "New",
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text", "tools", "reasoning"],
+    "tags": ["New", "Personal", "Groq"],
     "tokens": 131072,
     "completionTokens": 32766,
     "enabled": true,
@@ -134,16 +91,8 @@
     "label": "OpenAI - GPT OSS 20b Preview",
     "modelId": "openai/gpt-oss-20b",
     "provider": "Groq",
-    "features": [
-      "text",
-      "tools",
-      "reasoning"
-    ],
-    "tags": [
-      "New",
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text", "tools", "reasoning"],
+    "tags": ["New", "Personal", "Groq"],
     "tokens": 131072,
     "completionTokens": 32766,
     "enabled": true,
@@ -153,15 +102,8 @@
     "label": "Moonshot - Kimi K2 Instruct Preview",
     "modelId": "moonshotai/kimi-k2-instruct",
     "provider": "Groq",
-    "features": [
-      "text",
-      "image",
-      "tools"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text", "image", "tools"],
+    "tags": ["Personal", "Groq"],
     "tokens": 131072,
     "completionTokens": 16384,
     "enabled": true,
@@ -171,100 +113,30 @@
     "label": "Qwen - QWEN3 32b Preview",
     "modelId": "qwen/qwen3-32b",
     "provider": "Groq",
-    "features": [
-      "text",
-      "reasoning"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text", "reasoning"],
+    "tags": ["Personal", "Groq"],
     "tokens": 131072,
     "completionTokens": 40960,
     "enabled": true,
-    "credentials": "vault"
-  },
-  "qwen-qwq-32b": {
-    "label": "Qwen - QWQ 32b Preview",
-    "modelId": "qwen-qwq-32b",
-    "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq",
-      "Deprecated"
-    ],
-    "tokens": 128000,
-    "completionTokens": 16384,
-    "enabled": true,
-    "hidden": true,
     "credentials": "vault"
   },
   "mistral-saba-24b": {
     "label": "Mistral - Saba 24b Preview",
     "modelId": "mistral-saba-24b",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 128000,
     "completionTokens": 16384,
     "enabled": true,
-    "credentials": "vault"
-  },
-  "qwen-2.5-coder-32b": {
-    "label": "Qwen - 2.5 Coder 32b Preview",
-    "modelId": "qwen-2.5-coder-32b",
-    "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq",
-      "Deprecated"
-    ],
-    "tokens": 128000,
-    "completionTokens": 16384,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "qwen-2.5-32b": {
-    "label": "Qwen - 2.5 32b Preview",
-    "modelId": "qwen-2.5-32b",
-    "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq",
-      "Deprecated"
-    ],
-    "tokens": 128000,
-    "completionTokens": 16384,
-    "enabled": true,
-    "hidden": true,
     "credentials": "vault"
   },
   "deepseek-r1-distill-qwen-32b": {
     "label": "DeepSeek - R1 Distill Qwen 32b Preview",
     "modelId": "deepseek-r1-distill-qwen-32b",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 128000,
     "completionTokens": 16384,
     "enabled": true,
@@ -274,14 +146,8 @@
     "label": "DeepSeek - R1 Distill Llama 70b Preview",
     "modelId": "deepseek-r1-distill-llama-70b",
     "provider": "Groq",
-    "features": [
-      "text",
-      "reasoning"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text", "reasoning"],
+    "tags": ["Personal", "Groq"],
     "tokens": 128000,
     "completionTokens": 8192,
     "enabled": true,
@@ -291,14 +157,8 @@
     "label": "Meta - Llama 4 Scout 17B 16E Instruct",
     "modelId": "meta-llama/llama-4-scout-17b-16e-instruct",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "New",
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["New", "Personal", "Groq"],
     "tokens": 131072,
     "completionTokens": 8192,
     "enabled": true,
@@ -308,13 +168,8 @@
     "label": "Meta - Llama 3.3 70B SpecDec Preview",
     "modelId": "llama-3.3-70b-specdec",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 8192,
     "completionTokens": 8192,
     "enabled": true,
@@ -324,13 +179,8 @@
     "label": "Meta - Llama 3.2 1B Preview",
     "modelId": "llama-3.2-1b-preview",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 128000,
     "completionTokens": 8192,
     "enabled": true,
@@ -340,52 +190,11 @@
     "label": "Meta - Llama 3.2 3B Preview",
     "modelId": "llama-3.2-3b-preview",
     "provider": "Groq",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
+    "features": ["text"],
+    "tags": ["Personal", "Groq"],
     "tokens": 128000,
     "completionTokens": 8192,
     "enabled": true,
-    "credentials": "vault"
-  },
-  "llama-3.2-11b-vision-preview": {
-    "label": "Meta - Llama 3.2 11B Vision Preview",
-    "modelId": "llama-3.2-11b-vision-preview",
-    "provider": "Groq",
-    "features": [
-      "text",
-      "image"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
-    "tokens": 128000,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "llama-3.2-90b-vision-preview": {
-    "label": "Meta - Llama 3.2 90b Vision Preview",
-    "modelId": "llama-3.2-90b-vision-preview",
-    "provider": "Groq",
-    "features": [
-      "text",
-      "image"
-    ],
-    "tags": [
-      "Personal",
-      "Groq"
-    ],
-    "tokens": 128000,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true,
     "credentials": "vault"
   }
 }

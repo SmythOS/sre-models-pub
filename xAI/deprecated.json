@@ -1,0 +1,28 @@
+{
+  "grok": {
+    "label": "Grok",
+    "modelId": "grok-2-latest",
+    "provider": "xAI",
+    "features": ["text", "tools"],
+    "tags": ["Personal", "xAI", "Deprecated"],
+    "tokens": 131072,
+    "completionTokens": 8192,
+    "enabled": true,
+    "hidden": true,
+    "baseURL": "https://api.x.ai/v1",
+    "credentials": "vault"
+  },
+  "grok-2-vision": {
+    "label": "Grok Vision",
+    "modelId": "grok-2-vision-latest",
+    "provider": "xAI",
+    "features": ["image"],
+    "tags": ["Personal", "xAI", "Deprecated"],
+    "tokens": 32768,
+    "completionTokens": 32768,
+    "enabled": true,
+    "hidden": true,
+    "baseURL": "https://api.x.ai/v1",
+    "credentials": "vault"
+  }
+}

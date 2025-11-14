@@ -1,19 +1,22 @@
 {
+  "gpt-5-pro": {
+    "label": "GPT 5 Pro",
+    "modelId": "gpt-5-pro",
+    "provider": "OpenAI",
+    "features": ["text", "tools", "image", "reasoning", "search", "document"],
+    "tags": ["New", "Personal"],
+    "tokens": 400000,
+    "completionTokens": 272000,
+    "enabled": true,
+    "credentials": "vault",
+    "interface": "responses"
+  },
   "gpt-5": {
     "label": "GPT 5",
     "modelId": "gpt-5",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image",
-      "reasoning",
-      "search"
-    ],
-    "tags": [
-      "New",
-      "Personal"
-    ],
+    "features": ["text", "tools", "image", "reasoning", "search", "document"],
+    "tags": ["New", "Personal"],
     "tokens": 400000,
     "completionTokens": 128000,
     "enabled": true,
@@ -24,17 +27,8 @@
     "label": "GPT 5 mini",
     "modelId": "gpt-5-mini",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image",
-      "reasoning",
-      "search"
-    ],
-    "tags": [
-      "New",
-      "Personal"
-    ],
+    "features": ["text", "tools", "image", "reasoning", "search", "document"],
+    "tags": ["New", "Personal"],
     "tokens": 400000,
     "completionTokens": 128000,
     "enabled": true,
@@ -46,16 +40,8 @@
     "label": "GPT 5 nano",
     "modelId": "gpt-5-nano",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image",
-      "reasoning"
-    ],
-    "tags": [
-      "New",
-      "Personal"
-    ],
+    "features": ["text", "tools", "image", "reasoning", "document"],
+    "tags": ["New", "Personal"],
     "tokens": 400000,
     "completionTokens": 128000,
     "enabled": true,
@@ -66,14 +52,8 @@
     "label": "GPT 5 Chat",
     "modelId": "gpt-5-chat-latest",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "image"
-    ],
-    "tags": [
-      "New",
-      "Personal"
-    ],
+    "features": ["text", "image", "document"],
+    "tags": ["New", "Personal"],
     "tokens": 400000,
     "completionTokens": 128000,
     "enabled": true,
@@ -84,15 +64,8 @@
     "label": "GPT 4.1 Nano",
     "modelId": "gpt-4.1-nano",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
+    "features": ["text", "tools", "image"],
+    "tags": ["Personal", "Legacy"],
     "tokens": 1047576,
     "completionTokens": 32768,
     "enabled": true,
@@ -102,16 +75,8 @@
     "label": "GPT 4.1 Mini",
     "modelId": "gpt-4.1-mini",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image",
-      "search"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
+    "features": ["text", "tools", "image", "search"],
+    "tags": ["Personal", "Legacy"],
     "tokens": 1047576,
     "completionTokens": 32768,
     "enabled": true,
@@ -122,56 +87,20 @@
     "label": "GPT 4.1",
     "modelId": "gpt-4.1",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image",
-      "search"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
+    "features": ["text", "tools", "image", "search"],
+    "tags": ["Personal", "Legacy"],
     "tokens": 1047576,
     "completionTokens": 32768,
     "enabled": true,
     "credentials": "vault",
     "searchContextTokens": 128000
   },
-  "gpt-4.5-preview": {
-    "label": "GPT 4.5 Preview (Discontinued - Auto-routes to GPT 4.1)",
-    "modelId": "gpt-4.1",
-    "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image"
-    ],
-    "tags": [
-      "Personal",
-      "Deprecated"
-    ],
-    "tokens": 128000,
-    "completionTokens": 16384,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
   "gpt-4o": {
     "label": "GPT 4o",
     "modelId": "gpt-4o-2024-08-06",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image",
-      "search",
-      "document"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
+    "features": ["text", "tools", "image", "search", "document"],
+    "tags": ["Personal", "Legacy"],
     "tokens": 128000,
     "completionTokens": 16384,
     "enabled": true,
@@ -182,17 +111,8 @@
     "label": "GPT 4o Mini",
     "modelId": "gpt-4o-mini-2024-07-18",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image",
-      "search",
-      "document"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
+    "features": ["text", "tools", "image", "search", "document"],
+    "tags": ["Personal", "Legacy"],
     "tokens": 128000,
     "completionTokens": 16383,
     "enabled": true,
@@ -203,14 +123,8 @@
     "label": "GPT o4 mini",
     "modelId": "o4-mini-2025-04-16",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "reasoning"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
+    "features": ["text", "reasoning"],
+    "tags": ["Personal", "Legacy"],
     "tokens": 200000,
     "completionTokens": 100000,
     "enabled": true,
@@ -220,14 +134,8 @@
     "label": "GPT o3",
     "modelId": "o3-2025-04-16",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "reasoning"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
+    "features": ["text", "reasoning"],
+    "tags": ["Personal", "Legacy"],
     "tokens": 200000,
     "completionTokens": 100000,
     "enabled": true,
@@ -237,230 +145,31 @@
     "label": "GPT o3 Pro",
     "modelId": "o3-pro",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image",
-      "reasoning"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
+    "features": ["text", "tools", "image", "reasoning"],
+    "tags": ["Personal", "Legacy"],
     "tokens": 200000,
     "completionTokens": 100000,
     "enabled": false,
     "credentials": "vault",
     "interface": "responses"
   },
-  "o3-mini": {
-    "label": "GPT o3 mini",
-    "modelId": "o3-mini-2025-01-31",
-    "provider": "OpenAI",
-    "features": [
-      "text",
-      "reasoning"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
-    "tokens": 200000,
-    "completionTokens": 100000,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
   "o1": {
     "label": "GPT o1",
     "modelId": "o1-2024-12-17",
     "provider": "OpenAI",
-    "features": [
-      "text",
-      "reasoning"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
+    "features": ["text", "reasoning"],
+    "tags": ["Personal", "Legacy"],
     "tokens": 200000,
     "completionTokens": 100000,
     "enabled": true,
     "credentials": "vault"
-  },
-  "o1-mini": {
-    "label": "GPT o1 mini",
-    "modelId": "o1-mini-2024-09-12",
-    "provider": "OpenAI",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Deprecated"
-    ],
-    "tokens": 128000,
-    "completionTokens": 65536,
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "o1-preview": {
-    "label": "GPT o1 Preview (Discontinued - Auto-routes to GPT o3)",
-    "modelId": "o3",
-    "provider": "OpenAI",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Deprecated"
-    ],
-    "tokens": 128000,
-    "completionTokens": 32768,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "gpt-4-turbo-latest": {
-    "label": "GPT 4 Turbo Latest",
-    "modelId": "gpt-4-turbo-2024-04-09",
-    "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
-    "tokens": 128000,
-    "completionTokens": 4096,
-    "enabled": true,
-    "hidden": true
-  },
-  "gpt-4-turbo": {
-    "label": "GPT 4 Turbo",
-    "modelId": "gpt-4-turbo-2024-04-09",
-    "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools",
-      "image"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
-    "tokens": 128000,
-    "completionTokens": 4096,
-    "enabled": true,
-    "hidden": true
-  },
-  "gpt-4-latest": {
-    "label": "GPT 4 Latest",
-    "modelId": "gpt-4-0613",
-    "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
-    "tokens": 8192,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true
-  },
-  "gpt-4": {
-    "label": "GPT 4",
-    "modelId": "gpt-4o-2024-08-06",
-    "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools"
-    ],
-    "tags": [
-      "Personal",
-      "deprecated"
-    ],
-    "tokens": 8192,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true
-  },
-  "gpt-3.5-turbo-latest": {
-    "label": "GPT 3.5 Turbo Latest",
-    "modelId": "gpt-3.5-turbo-0125",
-    "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
-    "tokens": 16385,
-    "completionTokens": 4096,
-    "enabled": true,
-    "hidden": true
-  },
-  "gpt-3.5-turbo": {
-    "label": "GPT 3.5 Turbo",
-    "modelId": "gpt-3.5-turbo-0125",
-    "provider": "OpenAI",
-    "features": [
-      "text",
-      "tools"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
-    "tokens": 16385,
-    "completionTokens": 4096,
-    "enabled": true,
-    "hidden": true
   },
   "gpt-image-1": {
     "label": "GPT Image 1",
     "modelId": "gpt-image-1",
     "provider": "OpenAI",
-    "features": [
-      "image-generation"
-    ],
-    "tags": [
-      "Personal",
-      "OpenAI"
-    ],
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "dall-e-3": {
-    "label": "DALL·E 3",
-    "modelId": "dall-e-3",
-    "provider": "OpenAI",
-    "features": [
-      "image-generation"
-    ],
-    "tags": [
-      "Deprecated"
-    ],
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "dall-e-2": {
-    "label": "DALL·E 2",
-    "modelId": "dall-e-2",
-    "provider": "OpenAI",
-    "features": [
-      "image-generation"
-    ],
-    "tags": [
-      "Deprecated"
-    ],
+    "features": ["image-generation"],
+    "tags": ["Personal", "OpenAI"],
     "enabled": true,
     "credentials": "vault"
   }

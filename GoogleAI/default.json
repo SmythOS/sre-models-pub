@@ -12,9 +12,7 @@
       "tools",
       "reasoning"
     ],
-    "tags": [
-      "Personal"
-    ],
+    "tags": ["Personal"],
     "tokens": 1048576,
     "completionTokens": 65536,
     "enabled": true,
@@ -33,251 +31,28 @@
       "tools",
       "reasoning"
     ],
-    "tags": [
-      "New",
-      "Personal"
-    ],
+    "tags": ["New", "Personal"],
     "tokens": 1048576,
     "completionTokens": 65536,
     "enabled": true,
     "credentials": "vault"
   },
-  "gemini-2.0-flash": {
-    "label": "Gemini 2.0 Flash",
-    "modelId": "gemini-2.0-flash",
+  "gemini-2.5-flash-image": {
+    "label": "Nano Banana",
+    "modelId": "gemini-2.5-flash-image-preview",
     "provider": "GoogleAI",
-    "features": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "document"
-    ],
-    "tags": [
-      "Personal"
-    ],
-    "tokens": 1048576,
-    "completionTokens": 8192,
+    "features": ["image-generation"],
+    "tags": ["New", "Personal", "GoogleAI"],
     "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "gemini-2.0-flash-lite": {
-    "label": "Gemini 2.0 Flash Lite",
-    "modelId": "gemini-2.0-flash-lite",
-    "provider": "GoogleAI",
-    "features": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "document"
-    ],
-    "tags": [
-      "Personal"
-    ],
-    "tokens": 1048576,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "gemini-1.5-pro-latest-stable": {
-    "label": "Gemini 1.5 Pro Latest Stable",
-    "modelId": "gemini-1.5-pro",
-    "provider": "GoogleAI",
-    "features": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "document"
-    ],
-    "tags": [
-      "Personal",
-      "deprecated"
-    ],
-    "tokens": 2097152,
-    "completionTokens": 8192,
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "gemini-1.5-pro-latest": {
-    "label": "Gemini 1.5 Pro",
-    "modelId": "gemini-1.5-pro",
-    "provider": "GoogleAI",
-    "tags": [
-      "Personal",
-      "deprecated"
-    ],
-    "tokens": 2097152,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "gemini-1.5-pro-stable": {
-    "label": "Gemini 1.5 Pro Stable",
-    "modelId": "gemini-1.5-pro",
-    "provider": "GoogleAI",
-    "features": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "document"
-    ],
-    "tags": [
-      "Personal",
-      "deprecated"
-    ],
-    "tokens": 2097152,
-    "completionTokens": 8192,
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "gemini-1.5-flash-latest": {
-    "label": "Gemini 1.5 Flash Latest",
-    "modelId": "gemini-1.5-flash-latest",
-    "provider": "GoogleAI",
-    "features": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "document"
-    ],
-    "tags": [
-      "Personal",
-      "deprecated"
-    ],
-    "tokens": 1048576,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "gemini-1.5-flash-latest-stable": {
-    "label": "Gemini 1.5 Flash Latest Stable",
-    "modelId": "gemini-1.5-flash",
-    "provider": "GoogleAI",
-    "features": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "document"
-    ],
-    "tags": [
-      "Personal",
-      "deprecated"
-    ],
-    "tokens": 1048576,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "gemini-1.5-flash-stable": {
-    "label": "Gemini 1.5 Flash Stable",
-    "modelId": "gemini-1.5-flash-001",
-    "provider": "GoogleAI",
-    "features": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "document"
-    ],
-    "tags": [
-      "Personal",
-      "deprecated"
-    ],
-    "tokens": 1048576,
-    "completionTokens": 8192,
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "gemini-1.0-pro-latest": {
-    "label": "Gemini 1.0 Pro Latest",
-    "modelId": "gemini-1.0-pro-latest",
-    "provider": "GoogleAI",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
-    "tokens": 30720,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "gemini-1.0-pro-latest-stable": {
-    "label": "Gemini 1.0 Pro Latest Stable",
-    "modelId": "gemini-1.0-pro",
-    "provider": "GoogleAI",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
-    "tokens": 30720,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "gemini-1.0-pro-stable": {
-    "label": "Gemini 1.0 Pro Stable",
-    "modelId": "gemini-1.0-pro-001",
-    "provider": "GoogleAI",
-    "features": [
-      "text"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
-    "tokens": 30720,
-    "completionTokens": 8192,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
-  },
-  "gemini-pro-vision": {
-    "label": "Gemini Pro Vision",
-    "modelId": "gemini-pro-vision",
-    "provider": "GoogleAI",
-    "features": [
-      "image"
-    ],
-    "tags": [
-      "Personal",
-      "Legacy"
-    ],
-    "tokens": 12288,
-    "completionTokens": 4096,
-    "enabled": true,
-    "hidden": true,
-    "credentials": "vault"
+    "credentials": "vault",
+    "interface": "generateContent"
   },
   "imagen-4-ultra": {
     "label": "Imagen 4 Ultra",
     "modelId": "imagen-4.0-ultra-generate-preview-06-06",
     "provider": "GoogleAI",
-    "features": [
-      "image-generation"
-    ],
-    "tags": [
-      "New",
-      "Personal",
-      "GoogleAI"
-    ],
+    "features": ["image-generation"],
+    "tags": ["New", "Personal", "GoogleAI"],
     "enabled": true,
     "credentials": "vault"
   },
@@ -285,14 +60,8 @@
     "label": "Imagen 4",
     "modelId": "imagen-4.0-generate-preview-06-06",
     "provider": "GoogleAI",
-    "features": [
-      "image-generation"
-    ],
-    "tags": [
-      "New",
-      "Personal",
-      "GoogleAI"
-    ],
+    "features": ["image-generation"],
+    "tags": ["New", "Personal", "GoogleAI"],
     "enabled": true,
     "credentials": "vault"
   }

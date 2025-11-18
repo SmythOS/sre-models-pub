@@ -8,7 +8,8 @@
     "tokens": 128000,
     "completionTokens": 4096,
     "enabled": true,
-    "hidden": true
+    "hidden": true,
+    "credentials": "vault"
   },
   "gpt-4-turbo": {
     "label": "GPT 4 Turbo",
@@ -19,7 +20,8 @@
     "tokens": 128000,
     "completionTokens": 4096,
     "enabled": true,
-    "hidden": true
+    "hidden": true,
+    "credentials": "vault"
   },
   "gpt-3.5-turbo-latest": {
     "label": "GPT 3.5 Turbo Latest",
@@ -30,7 +32,8 @@
     "tokens": 16385,
     "completionTokens": 4096,
     "enabled": true,
-    "hidden": true
+    "hidden": true,
+    "credentials": "vault"
   },
   "gpt-3.5-turbo": {
     "label": "GPT 3.5 Turbo",
@@ -41,7 +44,8 @@
     "tokens": 16385,
     "completionTokens": 4096,
     "enabled": true,
-    "hidden": true
+    "hidden": true,
+    "credentials": "vault"
   },
   "gpt-4-latest": {
     "label": "GPT 4 Latest",
@@ -52,7 +56,8 @@
     "tokens": 8192,
     "completionTokens": 8192,
     "enabled": true,
-    "hidden": true
+    "hidden": true,
+    "credentials": "vault"
   },
   "gpt-4": {
     "label": "GPT 4",
@@ -63,7 +68,8 @@
     "tokens": 8192,
     "completionTokens": 8192,
     "enabled": true,
-    "hidden": true
+    "hidden": true,
+    "credentials": "vault"
   },
   "o3-pro": {
     "label": "GPT o3 Pro",

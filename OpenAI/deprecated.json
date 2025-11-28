@@ -95,17 +95,6 @@
     "hidden": true,
     "credentials": "vault"
   },
-  "o1-mini": {
-    "label": "GPT o1 mini",
-    "modelId": "o1-mini-2024-09-12",
-    "provider": "OpenAI",
-    "features": ["text"],
-    "tags": ["Personal", "Deprecated"],
-    "tokens": 128000,
-    "completionTokens": 65536,
-    "enabled": true,
-    "credentials": "vault"
-  },
   "dall-e-3": {
     "label": "DALL·E 3",
     "modelId": "dall-e-3",

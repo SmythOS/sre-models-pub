@@ -1,10 +1,22 @@
 {
+  "claude-opus-4-5": {
+    "label": "Claude Opus 4.5",
+    "modelId": "claude-opus-4-5",
+    "provider": "Anthropic",
+    "features": ["text", "image", "tools", "reasoning"],
+    "tags": ["New", "Personal"],
+    "tokens": 200000,
+    "completionTokens": 64000,
+    "enabled": true,
+    "credentials": "vault",
+    "maxReasoningTokens": 32000
+  },
   "claude-haiku-4-5": {
     "label": "Claude Haiku 4.5",
     "modelId": "claude-haiku-4-5",
     "provider": "Anthropic",
     "features": ["text", "image", "tools", "reasoning"],
-    "tags": ["New", "Personal"],
+    "tags": ["Personal"],
     "tokens": 200000,
     "completionTokens": 64000,
     "maxReasoningTokens": 32000,
@@ -28,7 +40,7 @@
     "modelId": "claude-opus-4-1",
     "provider": "Anthropic",
     "features": ["text", "image", "tools", "reasoning"],
-    "tags": ["New", "Personal"],
+    "tags": ["Personal"],
     "tokens": 200000,
     "completionTokens": 32000,
     "enabled": true,

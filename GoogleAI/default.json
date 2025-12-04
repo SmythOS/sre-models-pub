@@ -56,9 +56,19 @@
     "enabled": true,
     "credentials": "vault"
   },
+  "gemini-3-pro-image": {
+    "label": "Nano Banana (Pro)",
+    "modelId": "gemini-3-pro-image-preview",
+    "provider": "GoogleAI",
+    "features": ["image-generation"],
+    "tags": ["New", "Personal", "GoogleAI"],
+    "enabled": true,
+    "credentials": "vault",
+    "interface": "generateContent"
+  },
   "gemini-2.5-flash-image": {
-    "label": "Nano Banana",
-    "modelId": "gemini-2.5-flash-image-preview",
+    "label": "Nano Banana (Flash)",
+    "modelId": "gemini-2.5-flash-image",
     "provider": "GoogleAI",
     "features": ["image-generation"],
     "tags": ["Personal", "GoogleAI"],

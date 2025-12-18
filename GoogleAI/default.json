@@ -37,6 +37,25 @@
     "enabled": true,
     "credentials": "vault"
   },
+  "gemini-3-flash": {
+    "label": "Gemini 3 Flash",
+    "modelId": "gemini-3-flash-preview",
+    "provider": "GoogleAI",
+    "features": [
+      "text",
+      "image",
+      "audio",
+      "video",
+      "document",
+      "tools",
+      "reasoning"
+    ],
+    "tags": ["New", "Personal"],
+    "tokens": 1048576,
+    "completionTokens": 65536,
+    "enabled": true,
+    "credentials": "vault"
+  },
   "gemini-2.5-flash": {
     "label": "Gemini 2.5 Flash",
     "modelId": "gemini-2.5-flash",

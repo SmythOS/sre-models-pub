@@ -12,7 +12,7 @@
       "tools",
       "reasoning"
     ],
-    "tags": ["New", "Personal"],
+    "tags": ["New", "Preview", "Personal"],
     "tokens": 1048576,
     "completionTokens": 65536,
     "enabled": true,
@@ -50,7 +50,7 @@
       "tools",
       "reasoning"
     ],
-    "tags": ["New", "Personal"],
+    "tags": ["New", "Preview", "Personal"],
     "tokens": 1048576,
     "completionTokens": 65536,
     "enabled": true,
@@ -73,7 +73,8 @@
     "tokens": 1048576,
     "completionTokens": 65536,
     "enabled": true,
-    "credentials": "vault"
+    "credentials": "vault",
+    "default": true
   },
   "gemini-3-pro-image": {
     "label": "Nano Banana (Pro)",

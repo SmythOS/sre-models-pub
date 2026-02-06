@@ -1,8 +1,61 @@
 {
+  "claude-3.5-haiku": {
+    "label": "Claude 3.5 Haiku",
+    "modelId": "claude-3-5-haiku-latest",
+    "alias": "claude-haiku-4-5",
+    "provider": "Anthropic",
+    "features": ["text", "tools"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 200000,
+    "completionTokens": 8192,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "claude-3-haiku": {
+    "label": "Claude 3 Haiku",
+    "modelId": "claude-3-haiku-20240307",
+    "alias": "claude-haiku-4-5",
+    "provider": "Anthropic",
+    "features": ["text", "tools", "image"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 200000,
+    "completionTokens": 4096,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "claude-3-opus": {
+    "label": "Claude 3 Opus",
+    "modelId": "claude-3-opus-20240229",
+    "alias": "claude-opus-4-6",
+    "provider": "Anthropic",
+    "features": ["text", "tools", "image"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 200000,
+    "completionTokens": 4096,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "claude-3.7-sonnet-thinking": {
+    "label": "Claude 3.7 Sonnet Thinking",
+    "modelId": "claude-3-7-sonnet-20250219",
+    "alias": "claude-opus-4-6",
+    "provider": "Anthropic",
+    "features": ["text", "tools", "image", "reasoning"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 200000,
+    "completionTokens": 16384,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault",
+    "maxReasoningTokens": 16384
+  },
   "claude-3-5-sonnet-latest": {
     "label": "Claude 3.5 Sonnet Latest",
     "modelId": "claude-3-5-sonnet-latest",
-    "alias": "claude-sonnet-4-5",
+    "alias": "claude-opus-4-6",
     "provider": "Anthropic",
     "features": ["text", "tools", "image"],
     "tags": ["Personal", "Retired"],
@@ -15,7 +68,7 @@
   "claude-3.5-sonnet": {
     "label": "Claude 3.5 Sonnet Stable",
     "modelId": "claude-3-5-sonnet-20240620",
-    "alias": "claude-sonnet-4-5",
+    "alias": "claude-opus-4-6",
     "provider": "Anthropic",
     "features": ["text", "tools", "image"],
     "tags": ["Personal", "Retired"],
@@ -28,7 +81,7 @@
   "claude-3-sonnet": {
     "label": "Claude 3 Sonnet",
     "modelId": "claude-3-sonnet-20240229",
-    "alias": "claude-sonnet-4-5",
+    "alias": "claude-opus-4-6",
     "provider": "Anthropic",
     "features": ["text", "tools", "image"],
     "tags": ["Personal", "Retired"],
@@ -41,7 +94,7 @@
   "claude-2.1": {
     "label": "Claude 2.1",
     "modelId": "claude-2.1",
-    "alias": "claude-sonnet-4-5",
+    "alias": "claude-opus-4-6",
     "provider": "Anthropic",
     "features": ["text", "image"],
     "tags": ["Personal", "Retired"],
@@ -54,7 +107,7 @@
   "claude-instant-1.2": {
     "label": "Claude Instant 1.2",
     "modelId": "claude-instant-1.2",
-    "alias": "claude-3.5-haiku",
+    "alias": "claude-haiku-4-5",
     "provider": "Anthropic",
     "features": ["text", "image"],
     "tags": ["Personal", "Retired"],

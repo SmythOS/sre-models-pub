@@ -1,10 +1,21 @@
 {
+  "claude-opus-4-6": {
+    "label": "Claude Opus 4.6",
+    "modelId": "claude-opus-4-6",
+    "provider": "Anthropic",
+    "features": ["text", "image", "tools", "reasoning"],
+    "tags": ["New", "Personal"],
+    "tokens": 200000,
+    "completionTokens": 128000,
+    "enabled": true,
+    "credentials": "vault"
+  },
   "claude-opus-4-5": {
     "label": "Claude Opus 4.5",
     "modelId": "claude-opus-4-5",
     "provider": "Anthropic",
     "features": ["text", "image", "tools", "reasoning"],
-    "tags": ["New", "Personal"],
+    "tags": ["Personal"],
     "tokens": 200000,
     "completionTokens": 64000,
     "enabled": true,
@@ -32,76 +43,6 @@
     "tokens": 200000,
     "completionTokens": 64000,
     "maxReasoningTokens": 32000,
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "claude-opus-4-1": {
-    "label": "Claude Opus 4.1",
-    "modelId": "claude-opus-4-1",
-    "provider": "Anthropic",
-    "features": ["text", "image", "tools", "reasoning"],
-    "tags": ["Personal"],
-    "tokens": 200000,
-    "completionTokens": 32000,
-    "enabled": true,
-    "credentials": "vault",
-    "maxReasoningTokens": 32000
-  },
-  "claude-4-opus": {
-    "label": "Claude Opus 4",
-    "modelId": "claude-opus-4-20250514",
-    "provider": "Anthropic",
-    "features": ["text", "image", "tools", "reasoning"],
-    "tags": ["Personal"],
-    "tokens": 200000,
-    "completionTokens": 32000,
-    "enabled": true,
-    "credentials": "vault",
-    "maxReasoningTokens": 32000
-  },
-  "claude-4-sonnet": {
-    "label": "Claude Sonnet 4",
-    "modelId": "claude-sonnet-4-20250514",
-    "provider": "Anthropic",
-    "features": ["text", "image", "tools", "reasoning"],
-    "tags": ["Personal"],
-    "tokens": 200000,
-    "completionTokens": 64000,
-    "enabled": true,
-    "credentials": "vault",
-    "maxReasoningTokens": 32000
-  },
-  "claude-3.7-sonnet": {
-    "label": "Claude 3.7 Sonnet",
-    "modelId": "claude-3-7-sonnet-20250219",
-    "provider": "Anthropic",
-    "features": ["text", "tools", "image", "reasoning"],
-    "tags": ["Personal", "Legacy"],
-    "tokens": 200000,
-    "completionTokens": 8192,
-    "enabled": true,
-    "credentials": "vault",
-    "maxReasoningTokens": 16384
-  },
-  "claude-3.5-haiku": {
-    "label": "Claude 3.5 Haiku",
-    "modelId": "claude-3-5-haiku-latest",
-    "provider": "Anthropic",
-    "features": ["text", "tools"],
-    "tags": ["Personal", "Legacy"],
-    "tokens": 200000,
-    "completionTokens": 8192,
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "claude-3-opus": {
-    "label": "Claude 3 Opus",
-    "modelId": "claude-3-opus-20240229",
-    "provider": "Anthropic",
-    "features": ["text", "tools", "image"],
-    "tags": ["Personal", "Legacy"],
-    "tokens": 200000,
-    "completionTokens": 4096,
     "enabled": true,
     "credentials": "vault"
   }

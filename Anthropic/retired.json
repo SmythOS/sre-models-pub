@@ -1,4 +1,18 @@
 {
+  "claude-3.7-sonnet": {
+    "label": "Claude 3.7 Sonnet",
+    "modelId": "claude-3-7-sonnet-20250219",
+    "alias": "claude-opus-4-6",
+    "provider": "Anthropic",
+    "features": ["text", "tools", "image", "reasoning"],
+    "tags": ["Personal", "Retired"],
+    "tokens": 200000,
+    "completionTokens": 8192,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault",
+    "maxReasoningTokens": 16384
+  },
   "claude-3.5-haiku": {
     "label": "Claude 3.5 Haiku",
     "modelId": "claude-3-5-haiku-latest",

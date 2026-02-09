@@ -34,17 +34,5 @@
     "enabled": true,
     "credentials": "vault",
     "maxReasoningTokens": 32000
-  },
-  "claude-3.7-sonnet": {
-    "label": "Claude 3.7 Sonnet",
-    "modelId": "claude-3-7-sonnet-20250219",
-    "provider": "Anthropic",
-    "features": ["text", "tools", "image", "reasoning"],
-    "tags": ["Personal", "Legacy"],
-    "tokens": 200000,
-    "completionTokens": 8192,
-    "enabled": true,
-    "credentials": "vault",
-    "maxReasoningTokens": 16384
   }
 }

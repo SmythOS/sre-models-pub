@@ -1,4 +1,15 @@
 {
+  "claude-sonnet-4-6": {
+    "label": "Claude Sonnet 4.6",
+    "modelId": "claude-sonnet-4-6",
+    "provider": "Anthropic",
+    "features": ["text", "image", "tools", "reasoning"],
+    "tags": ["New", "Personal"],
+    "tokens": 200000,
+    "completionTokens": 64000,
+    "enabled": true,
+    "credentials": "vault"
+  },
   "claude-opus-4-6": {
     "label": "Claude Opus 4.6",
     "modelId": "claude-opus-4-6",

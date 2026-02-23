@@ -1,4 +1,30 @@
 {
+  "gemini-2.5-pro": {
+    "label": "Gemini 2.5 Pro",
+    "modelId": "gemini-2.5-pro",
+    "alias": "gemini-3-pro",
+    "provider": "GoogleAI",
+    "features": ["text", "image", "audio", "video", "document", "tools", "reasoning"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 1048576,
+    "completionTokens": 65536,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
+  "gemini-2.5-flash": {
+    "label": "Gemini 2.5 Flash",
+    "modelId": "gemini-2.5-flash",
+    "alias": "gemini-3-flash",
+    "provider": "GoogleAI",
+    "features": ["text", "image", "audio", "video", "document", "tools", "reasoning"],
+    "tags": ["Personal", "Deprecated"],
+    "tokens": 1048576,
+    "completionTokens": 65536,
+    "enabled": true,
+    "hidden": true,
+    "credentials": "vault"
+  },
   "gemini-2.0-flash": {
     "label": "Gemini 2.0 Flash",
     "modelId": "gemini-2.0-flash",

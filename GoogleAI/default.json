@@ -1,7 +1,7 @@
 {
-  "gemini-3-pro": {
-    "label": "Gemini 3 Pro",
-    "modelId": "gemini-3-pro-preview",
+  "gemini-3.1-pro": {
+    "label": "Gemini 3.1 Pro",
+    "modelId": "gemini-3.1-pro-preview",
     "provider": "GoogleAI",
     "features": [
       "text",
@@ -18,9 +18,9 @@
     "enabled": true,
     "credentials": "vault"
   },
-  "gemini-2.5-pro": {
-    "label": "Gemini 2.5 Pro",
-    "modelId": "gemini-2.5-pro",
+  "gemini-3-pro": {
+    "label": "Gemini 3 Pro",
+    "modelId": "gemini-3-pro-preview",
     "provider": "GoogleAI",
     "features": [
       "text",
@@ -31,7 +31,7 @@
       "tools",
       "reasoning"
     ],
-    "tags": ["Personal"],
+    "tags": ["Preview", "Personal"],
     "tokens": 1048576,
     "completionTokens": 65536,
     "enabled": true,
@@ -50,26 +50,7 @@
       "tools",
       "reasoning"
     ],
-    "tags": ["New", "Preview", "Personal"],
-    "tokens": 1048576,
-    "completionTokens": 65536,
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "gemini-2.5-flash": {
-    "label": "Gemini 2.5 Flash",
-    "modelId": "gemini-2.5-flash",
-    "provider": "GoogleAI",
-    "features": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "document",
-      "tools",
-      "reasoning"
-    ],
-    "tags": ["Personal"],
+    "tags": ["Preview", "Personal"],
     "tokens": 1048576,
     "completionTokens": 65536,
     "enabled": true,
@@ -95,33 +76,5 @@
     "enabled": true,
     "credentials": "vault",
     "interface": "generateContent"
-  },
-  "imagen-4-ultra": {
-    "label": "Imagen 4 Ultra",
-    "modelId": "imagen-4.0-ultra-generate-001",
-    "provider": "GoogleAI",
-    "features": ["image-generation"],
-    "tags": ["New", "Personal", "GoogleAI"],
-    "enabled": true,
-    "credentials": "vault"
-  },
-  "imagen-4": {
-    "label": "Imagen 4",
-    "modelId": "imagen-4.0-generate-001",
-    "provider": "GoogleAI",
-    "features": ["image-generation"],
-    "tags": ["New", "Personal", "GoogleAI"],
-    "enabled": true,
-    "credentials": "vault"
-  },
-
-  "imagen-4-fast": {
-    "label": "Imagen 4 Fast",
-    "modelId": "imagen-4.0-fast-generate-001",
-    "provider": "GoogleAI",
-    "features": ["image-generation"],
-    "tags": ["New", "Personal", "GoogleAI"],
-    "enabled": true,
-    "credentials": "vault"
   }
 }

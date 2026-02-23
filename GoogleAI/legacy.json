@@ -1,4 +1,42 @@
 {
+  "gemini-2.5-pro": {
+    "label": "Gemini 2.5 Pro",
+    "modelId": "gemini-2.5-pro",
+    "provider": "GoogleAI",
+    "features": [
+      "text",
+      "image",
+      "audio",
+      "video",
+      "document",
+      "tools",
+      "reasoning"
+    ],
+    "tags": ["Personal", "Legacy"],
+    "tokens": 1048576,
+    "completionTokens": 65536,
+    "enabled": true,
+    "credentials": "vault"
+  },
+  "gemini-2.5-flash": {
+    "label": "Gemini 2.5 Flash",
+    "modelId": "gemini-2.5-flash",
+    "provider": "GoogleAI",
+    "features": [
+      "text",
+      "image",
+      "audio",
+      "video",
+      "document",
+      "tools",
+      "reasoning"
+    ],
+    "tags": ["Personal", "Legacy"],
+    "tokens": 1048576,
+    "completionTokens": 65536,
+    "enabled": true,
+    "credentials": "vault"
+  },
   "imagen-4-ultra": {
     "label": "Imagen 4 Ultra",
     "modelId": "imagen-4.0-ultra-generate-001",

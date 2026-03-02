@@ -4,7 +4,7 @@
     "modelId": "gemini-2.5-flash-image",
     "provider": "GoogleAI",
     "features": ["image-generation"],
-    "tags": ["Personal", "GoogleAI", "Legacy", "gemini-2.5-flash-image"],
+    "tags": ["Personal", "GoogleAI", "gemini-2.5-flash-image", "Legacy"],
     "enabled": true,
     "credentials": "vault",
     "interface": "generateContent"

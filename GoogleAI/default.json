@@ -57,7 +57,7 @@
     "credentials": "vault",
     "default": true
   },
-  "gemini-3.1-flash": {
+  "gemini-3.1-flash-image": {
     "label": "Nano Banana 2",
     "modelId": "gemini-3.1-flash-image-preview",
     "provider": "GoogleAI",

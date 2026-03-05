@@ -50,7 +50,7 @@
       "tools",
       "reasoning"
     ],
-    "tags": ["Preview", "Personal"],
+    "tags": ["New", "Preview", "Personal"],
     "tokens": 1048576,
     "completionTokens": 65536,
     "enabled": true,

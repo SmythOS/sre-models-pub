@@ -1,4 +1,16 @@
 {
+  "gpt-5.3-chat": {
+    "label": "GPT 5.3 Chat",
+    "modelId": "gpt-5.3-chat-latest",
+    "provider": "OpenAI",
+    "features": ["text", "image", "document"],
+    "tags": ["New", "Personal"],
+    "tokens": 128000,
+    "completionTokens": 16384,
+    "enabled": true,
+    "credentials": "vault",
+    "interface": "responses"
+  },
   "gpt-5.2": {
     "label": "GPT 5.2",
     "modelId": "gpt-5.2",
@@ -28,7 +40,7 @@
     "modelId": "gpt-5.2-chat-latest",
     "provider": "OpenAI",
     "features": ["text", "image", "document"],
-    "tags": ["New", "Personal"],
+    "tags": ["Personal"],
     "tokens": 128000,
     "completionTokens": 16384,
     "enabled": true,

@@ -1,4 +1,28 @@
 {
+  "gpt-5.4": {
+    "label": "GPT 5.4",
+    "modelId": "gpt-5.4",
+    "provider": "OpenAI",
+    "features": ["text", "tools", "image", "reasoning", "search", "document"],
+    "tags": ["New", "Personal"],
+    "tokens": 1050000,
+    "completionTokens": 128000,
+    "enabled": true,
+    "credentials": "vault",
+    "interface": "responses"
+  },
+  "gpt-5.4-pro": {
+    "label": "GPT 5.4 Pro",
+    "modelId": "gpt-5.4-pro",
+    "provider": "OpenAI",
+    "features": ["text", "tools", "image", "reasoning", "search", "document"],
+    "tags": ["New", "Personal"],
+    "tokens": 1050000,
+    "completionTokens": 128000,
+    "enabled": true,
+    "credentials": "vault",
+    "interface": "responses"
+  },
   "gpt-5.3-chat": {
     "label": "GPT 5.3 Chat",
     "modelId": "gpt-5.3-chat-latest",
@@ -16,7 +40,7 @@
     "modelId": "gpt-5.2",
     "provider": "OpenAI",
     "features": ["text", "tools", "image", "reasoning", "search", "document"],
-    "tags": ["New", "Personal"],
+    "tags": ["Personal"],
     "tokens": 400000,
     "completionTokens": 128000,
     "enabled": true,
@@ -28,7 +52,7 @@
     "modelId": "gpt-5.2-pro",
     "provider": "OpenAI",
     "features": ["text", "tools", "image", "reasoning", "search", "document"],
-    "tags": ["New", "Personal"],
+    "tags": ["Personal"],
     "tokens": 400000,
     "completionTokens": 128000,
     "enabled": true,

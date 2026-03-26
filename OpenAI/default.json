@@ -23,12 +23,37 @@
     "credentials": "vault",
     "interface": "responses"
   },
+  "gpt-5.4-mini": {
+    "label": "GPT 5.4 Mini",
+    "modelId": "gpt-5.4-mini",
+    "provider": "OpenAI",
+    "features": ["text", "tools", "image", "reasoning", "search", "document"],
+    "tags": ["New", "Personal"],
+    "tokens": 400000,
+    "completionTokens": 128000,
+    "enabled": true,
+    "credentials": "vault",
+    "interface": "responses",
+    "default": true
+  },
+  "gpt-5.4-nano": {
+    "label": "GPT 5.4 Nano",
+    "modelId": "gpt-5.4-nano",
+    "provider": "OpenAI",
+    "features": ["text", "tools", "image", "reasoning", "search", "document"],
+    "tags": ["New", "Personal"],
+    "tokens": 400000,
+    "completionTokens": 128000,
+    "enabled": true,
+    "credentials": "vault",
+    "interface": "responses"
+  },
   "gpt-5.3-chat": {
     "label": "GPT 5.3 Chat",
     "modelId": "gpt-5.3-chat-latest",
     "provider": "OpenAI",
     "features": ["text", "image", "document"],
-    "tags": ["New", "Personal"],
+    "tags": ["Personal"],
     "tokens": 128000,
     "completionTokens": 16384,
     "enabled": true,
@@ -117,8 +142,7 @@
     "completionTokens": 128000,
     "enabled": true,
     "credentials": "vault",
-    "interface": "responses",
-    "default": true
+    "interface": "responses"
   },
   "gpt-5-nano": {
     "label": "GPT 5 nano",

@@ -212,6 +212,15 @@
     "enabled": true,
     "credentials": "vault"
   },
+  "gpt-image-1.5": {
+    "label": "GPT Image 1.5",
+    "modelId": "gpt-image-1.5",
+    "provider": "OpenAI",
+    "features": ["image-generation"],
+    "tags": ["New", "Personal", "OpenAI"],
+    "enabled": true,
+    "credentials": "vault"
+  },
   "gpt-image-1": {
     "label": "GPT Image 1",
     "modelId": "gpt-image-1",

@@ -5,7 +5,7 @@
     "provider": "Anthropic",
     "features": ["text", "image", "tools", "reasoning"],
     "tags": ["New", "Personal"],
-    "tokens": 200000,
+    "tokens": 1000000,
     "completionTokens": 64000,
     "enabled": true,
     "credentials": "vault"
@@ -16,7 +16,7 @@
     "provider": "Anthropic",
     "features": ["text", "image", "tools", "reasoning"],
     "tags": ["New", "Personal"],
-    "tokens": 200000,
+    "tokens": 1000000,
     "completionTokens": 128000,
     "enabled": true,
     "credentials": "vault"

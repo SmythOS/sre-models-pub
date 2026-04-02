@@ -18,25 +18,6 @@
     "enabled": true,
     "credentials": "vault"
   },
-  "gemini-3-pro": {
-    "label": "Gemini 3 Pro",
-    "modelId": "gemini-3-pro-preview",
-    "provider": "GoogleAI",
-    "features": [
-      "text",
-      "image",
-      "audio",
-      "video",
-      "document",
-      "tools",
-      "reasoning"
-    ],
-    "tags": ["Preview", "Personal"],
-    "tokens": 1048576,
-    "completionTokens": 65536,
-    "enabled": true,
-    "credentials": "vault"
-  },
   "gemini-3.1-flash-lite": {
     "label": "Gemini 3.1 Flash-Lite",
     "modelId": "gemini-3.1-flash-lite-preview",
